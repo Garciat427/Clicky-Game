@@ -12,7 +12,7 @@
   </a>
 </p>
 
-![demo](https://i.gyazo.com/73f8d4548a375fe93ffb9d9fb6d10ed8.png)
+![demo](https://i.gyazo.com/3a70033ea9a2cd78e494cd92dd3f4cbf.png)
 
 ## 🔗 External Links and Refrences Used in this Project
 [FrontEndOnFront Website](https://frontendonfront.com/)  
