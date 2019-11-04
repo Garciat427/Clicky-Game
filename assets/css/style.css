@@ -1,0 +1,22 @@
+/* Main CSS for Portfolio page */
+
+/* View Formatting */
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        background-image: linear-gradient(#fdfdfd,#fafafa,#b0bec5) !important;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+
+    .img-div {
+        overflow: hidden;
+        position: relative;
+        height: 300px;
+    }
+    img.setPos {
+        position: absolute;
+    }
