@@ -7,8 +7,8 @@ function NavBar() {
   return (
    <nav>
       <div className="container">
-         <div class="nav-wrapper">
-            <a href="#" class="brand-logo center">Clicky Game</a>
+         <div className="nav-wrapper">
+            <a href="#%" className="brand-logo center">Clicky Game</a>
          </div>
       </div>
    </nav>

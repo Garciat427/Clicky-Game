@@ -7,7 +7,6 @@
     $('.fixed-action-btn').floatingActionButton();
     $('.tooltipped').tooltip();
     $('.scrollspy').scrollSpy();
-    AOS.init();
 
     
   }); // end of document ready

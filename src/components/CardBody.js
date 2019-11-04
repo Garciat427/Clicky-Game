@@ -5,14 +5,18 @@ import React from "react";
 
 function CardBody(props) {
   return (
-    <div className="card-body" onClick={props.handleIncrement}>
-      <p className="card-text">Click Count: {props.count}</p>
-      <button className="btn btn-primary" onClick={props.handleIncrement}>
-        Increment
-      </button>{" "}
-      <button className="btn btn-danger" onClick={props.handleDecrement}>
-        Decrement
-      </button>
+    <div className="col s12 m3">
+      <div className="card blue-grey darken-1" onClick={() => props.handleIncrement(props.id)}>
+        
+        <div className="card-image img-div">
+          <img className="setPos" src={props.image}></img>
+        </div>
+        
+        <div className="card-content"> 
+          <p>Click Count: {props.count}</p>
+        </div>
+
+      </div>
     </div>
   );
 }
