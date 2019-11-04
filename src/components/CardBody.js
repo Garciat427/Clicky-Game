@@ -5,15 +5,11 @@ import React from "react";
 
 function CardBody(props) {
   return (
-    <div className="col s12 m3">
+    <div className="col s12 m2">
       <div className="card blue-grey darken-1" onClick={() => props.handleIncrement(props.id)}>
         
         <div className="card-image img-div">
-          <img className="setPos" src={props.image}></img>
-        </div>
-        
-        <div className="card-content"> 
-          <p>Click Count: {props.count}</p>
+          <img className="setPos" alt="" src={props.image}></img>
         </div>
 
       </div>
